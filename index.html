@@ -13,8 +13,15 @@
     <header class="header">
       <nav class="header_menu">
         <ul class="menu_list">
-          <li></li>
-
+          <li class="menu_item menu_item_active">
+            <a class="menu_link" href="#0">главная</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="0#">посмотреть лоты</a>
+          </li>
+          <li class="menu_item">
+            <a class="menu_link" href="0#">об аукционе</a>
+          </li>
         </ul>
       </nav>
       <a class="header_logo">
@@ -23,46 +30,81 @@
         src="/images/logo-black.svg"
         alt="Логотип проекта" />
       </a>
-      <address></address>
+      <address>
+        <ul class="info">
+          <li class="info_item_uderline">
+            <a class="info_link" href="0#">+9 999 555 5555</a>
+          </li>
+          <li class="info_item_uderline">
+            <a class="info_link" href="0#">info@sobaka.ge</a>
+          </li>
+          <li class="info_item">
+            <p>наб. Принсенграхт 263-265, Амстердам</p>
+          </li>
+        </ul>
+      </address>
     </header>
     <main>
       <section class="cover">
-        <h1></h1>
+        <img 
+        class="overlay"
+        src="/images/cover.jpg"
+        alt="Мазки картины"        
+        />
+        <h1 class="text_title">
+          <span class="text_title text_left">ОНО</span>
+          <span class="text_title text_center">ТЕБЕ</span>
+          <span class="text_title text_right">НАДО</span>
+        </h1>
         <div class="description">
-         <p>
-
+         <p class=" description_subline">
+          Аукцион вещей, вкоторые никто не верил
          </p>
-            <button>
-
+            <button class="buttom_cover">
+              Сделать ставку
             </button>
         </div>
       </section>
       <section class="lots">
-        <h2></h2>
+        <h2>Лоты</h2>
         <ul>
-          <li>
-            <a href="#">
-               <article>
+          <li class="lot_one">
+            <img 
+            src="/images/card-lot-01.jpg" 
+            alt="Картинка из фильма Пола Томаса Андерсона">
+            <a class="lot_title">
+              Фильм режиссёра, который бросил киношколу
+               <article >
 
                </article>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="lot_two">
+            <img 
+            class="lot_two_image"
+            src="/images/card-lot-02.jpg" 
+            alt="Картинка книги с именем автора">
+            <a class="lot_title">
+              <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
                <article>
               
                </article>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="lot_three">
+            <img 
+            class="lot_three_image"
+            src="/images/card-lot-03.jpg" 
+            alt="Детская картина с разными линиями">
+            <a class="lot_title">
+              <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                <article>
               
                </article>
             </a>
           </li>
          </ul>
-         <a href="#"></a>
+         <a class="more">посмотреть больше</a>
       </section>
       <section class="about">
         <div></div>
