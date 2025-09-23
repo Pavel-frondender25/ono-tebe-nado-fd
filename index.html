@@ -12,99 +12,86 @@
   <body>
     <header class="header">
       <nav class="header_menu">
-        <ul class="menu_list">
-          <li class="menu_item menu_item_active">
-            <a class="menu_link" href="#0">главная</a>
+        <ul class="header_links_list">
+          <li class="header_links_list_item header_links_list_item_no-bullit">
+            <a class="header_link header_link_active" href="#0">главная</a>
           </li>
-          <li class="menu_item">
-            <a class="menu_link" href="0#">посмотреть лоты</a>
+          <li class="header_links_list_item">
+            <a class="header_link" href="0#">посмотреть лоты</a>
           </li>
-          <li class="menu_item">
-            <a class="menu_link" href="0#">об аукционе</a>
+          <li class="header_links_list_item">
+            <a class="header_link" href="0#">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a class="header_logo">
         <img
-        class="header_logo_image"
-        src="/images/logo-black.svg"
-        alt="Логотип проекта" />
+          class="header_logo_image"
+          src="/images/logo-black.svg"
+          alt="Логотип проекта"
+        />
       </a>
-      <address>
-        <ul class="info">
-          <li class="info_item_uderline">
-            <a class="info_link" href="0#">+9 999 555 5555</a>
+      <address class="address">
+        <ul class="header_address">
+          <li class="header_address_item header_address_item_underline">
+            <a class="info_link" href="tel:+9 999 555 5555">+9 999 555 5555</a>
           </li>
-          <li class="info_item_uderline">
-            <a class="info_link" href="0#">info@sobaka.ge</a>
+          <li class="header_address_item header_address_item_underline">
+            <a class="info_link" href="malito:info@sobaka.ge">info@sobaka.ge</a>
           </li>
-          <li class="info_item">
-            <p>наб. Принсенграхт 263-265, Амстердам</p>
+          <li class="header_address_item">
+            <p>наб. Принсенграхт 263-</p>
+            <p>265, Амстердам</p>
           </li>
         </ul>
       </address>
     </header>
     <main>
       <section class="cover">
-        <img 
-        class="overlay"
-        src="/images/cover.jpg"
-        alt="Мазки картины"        
-        />
-        <h1 class="text_title">
-          <span class="text_title text_left">ОНО</span>
-          <span class="text_title text_center">ТЕБЕ</span>
-          <span class="text_title text_right">НАДО</span>
+        <div class="overlay"></div>
+        <h1 class="cover_title">
+          <span class="aligned_text aligned_text-left no-letter-spacing">ОНО</span>
+          <span class="aligned_text aligned_text-center no-letter-spacing">ТЕБЕ</span>
+          <span class="aligned_text aligned_text-right no-letter-spacing">НАДО</span>
         </h1>
-        <div class="description">
-         <p class=" description_subline">
-          Аукцион вещей, вкоторые никто не верил
-         </p>
-            <button class="buttom_cover">
-              Сделать ставку
-            </button>
+        <div class="cover_description">
+          <p class="cover_description-text letter-spacing-extended">
+            Аукцион вещей, вкоторые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2>Лоты</h2>
-        <ul>
+        <h2 class="lots_title">Лоты</h2>
+        <ul class="lots_card_list">
           <li class="lot_one">
-            <img 
-            src="/images/card-lot-01.jpg" 
-            alt="Картинка из фильма Пола Томаса Андерсона">
-            <a class="lot_title">
-              Фильм режиссёра, который бросил киношколу
-               <article >
-
-               </article>
+            <div class=""></div>
+            <a class="lot_title_link">
+              <article></article>
             </a>
           </li>
           <li class="lot_two">
-            <img 
-            class="lot_two_image"
-            src="/images/card-lot-02.jpg" 
-            alt="Картинка книги с именем автора">
-            <a class="lot_title">
-              <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
-               <article>
-              
-               </article>
+            <div class=""></div>
+            <a class="lot_title_link">
+              <h3>
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <article></article>
             </a>
           </li>
           <li class="lot_three">
-            <img 
-            class="lot_three_image"
-            src="/images/card-lot-03.jpg" 
-            alt="Детская картина с разными линиями">
-            <a class="lot_title">
-              <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-               <article>
-              
-               </article>
+            <div class=""></div>
+            <a class="lot_title_link">
+              <article>
+                <h3>
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p></p>
+              </article>
             </a>
           </li>
-         </ul>
-         <a class="more">посмотреть больше</a>
+        </ul>
+        <a class="more">посмотреть больше</a>
       </section>
       <section class="about">
         <div></div>
@@ -115,29 +102,23 @@
       </section>
     </main>
     <footer class="footer">
-      <address></address>
+      <address class="address"></address>
       <nav></nav>
       <ul>
         <li>
           <a href="#">
-             <button>
-
-             </button>
-          </a>  
+            <button></button>
+          </a>
         </li>
         <li>
           <a href="#">
-             <button>
-
-             </button>
-          </a>  
+            <button></button>
+          </a>
         </li>
         <li>
           <a href="#">
-             <button>
-
-             </button>
-          </a>  
+            <button></button>
+          </a>
         </li>
       </ul>
     </footer>
