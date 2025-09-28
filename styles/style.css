@@ -50,8 +50,13 @@
   font-weight: 400;
   font-size: 18px;
   text-underline-offset: 4px;
-  line-height: 1.3em;
-  padding: 0px 0px 0px 100px;
+}
+
+.header_address {
+ max-width: 303px;
+ justify-self: center;
+ padding: 0px 0px 8px 100px;
+ line-height: 25px;
 }
 
 .header_address_item {
@@ -60,19 +65,19 @@
 
 .cover {
   position: relative;
+  margin: 0px 0px 170px 0px;
+  z-index: 2;
+}
+.cover_image {
+  position: absolute;
   min-height: 757px;
-  background-image: url(/images/cover.jpg);
-  background-size: cover;
-  background-position: center;
-  margin: 0px 0px 180px 0px;
   z-index: -1;
 }
-
 .overlay {
   position: absolute;
   background-color: black;
   background-position: center;
-  z-index: -2;
+  z-index: 1;
   opacity: 60%;
   inset: 0;
 }
@@ -95,17 +100,19 @@
 }
 
 .aligned_text-center {
-  display: block;
-  text-align: center;
+  display: flex;
   width: 100%;
-  margin: 15px 0px -15px 15px;
+  margin-top: 15px;
+  justify-content: center;
+  margin-left: 15px;
 }
 
 .aligned_text-right {
-  display: block;
-  text-align: right;
-  width: 100%;
-  margin: 33px 0px -33px 34px;
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
+    justify-content: flex-end;
+    margin-left: 32px;
 }
 
 .letter-spacing-extended {
@@ -118,7 +125,7 @@
   justify-content: space-between;
   color: white;
   align-items: center;
-  padding: 32px 50px;
+  padding: 0px 50px;
   text-transform: uppercase;
 }
 
@@ -140,7 +147,7 @@
 
 .lots {
   margin: 0px 25px;
-  min-height: 723px;
+  padding: 58px 0px 0px 0px;
 }
 
 .lots_heading {
@@ -148,7 +155,7 @@
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
-  margin: 0px 0px 33px 40px;
+  margin: 3px 0px 30px 40px;
 }
 
 .lots_card-list {
@@ -156,6 +163,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   list-style-type: none;
   gap: 25px;
+  margin-bottom: 30px;
 }
 
 .card-link {
@@ -178,7 +186,6 @@
   background-image: url(/images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
-  margin-bottom: 29px;
 }
 
 .card_type_book {
@@ -223,7 +230,6 @@
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 2fr 2fr;
   padding: 150px 24px 180px 24px;
-  min-height: 595px;
 }
 
 .about_column {
@@ -274,13 +280,16 @@
 }
 
 .footer_address {
-  list-style: none;
-  justify-self: start;
-  margin: 0px 0px 0px -50px;
+  justify-self: center;
+  line-height: 25px;
+  padding-right: 25px;
 }
 
 .footer_address-item {
   text-decoration: none;
+  list-style: none;
+  text-underline-offset: 4px;
+  max-width: 240px;
 }
 
 .footer_menu {
@@ -290,6 +299,7 @@
 .footer_menu-list {
   list-style: none;
   text-align: center;
+  padding-top: 2px;
 }
 
 .footer_menu-list-item {
