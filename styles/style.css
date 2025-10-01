@@ -51,14 +51,16 @@
   font-size: 18px;
   text-underline-offset: 4px;
   line-height: 25px;
+  padding: 0px 50px;
 }
 
 .header_address {
   justify-self: end;
-  padding: 0px 60px 12px 0px;
+  padding-right: 59px;
+  padding-bottom: 8px;
 }
 
-.header_address_item {
+.address_info {
   list-style: none;
   max-width: 230px;
 }
@@ -103,7 +105,7 @@
 .aligned_text-center {
   display: flex;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 20px;
   justify-content: center;
   margin-left: 15px;
 }
@@ -180,7 +182,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  padding: 48px 40px;
+  padding: 50px 40px 46px 40px;
   background-position: center;
   background-size: cover;
 }
@@ -264,7 +266,7 @@
 .about_text {
   display: flex;
   flex-wrap: wrap;
-  padding: 101px 0px 0px 8px;
+  padding: 104px 0px 0px 8px;
   gap: 24px;
   font-size: 20px;
   font-weight: 400;
@@ -278,18 +280,6 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.footer_address {
-  justify-self: center;
-  padding-right: 25px;
-}
-
-.footer_address-item {
-  text-decoration: none;
-  list-style: none;
-  text-underline-offset: 4px;
-  max-width: 240px;
 }
 
 .footer_menu {
