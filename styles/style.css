@@ -52,6 +52,7 @@
   text-underline-offset: 4px;
   line-height: 25px;
   padding: 0px 50px;
+  max-width: 340px;
 }
 
 .header_address {
@@ -62,7 +63,7 @@
 
 .address_info {
   list-style: none;
-  max-width: 230px;
+  max-width: 260px;
 }
 
 .cover {
